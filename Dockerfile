@@ -1,5 +1,4 @@
-FROM registry.access.redhat.com/rhel7.1 
-
+FROM registry.access.redhat.com/rhel7:latest
 #Maintainer
 MAINTAINER Glen Millard "gmillard@redhat.com"
 
