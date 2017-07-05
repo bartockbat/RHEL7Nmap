@@ -11,6 +11,8 @@ LABEL version="oss"
 
 #Copy the help file - atomic help
 COPY help.1 /
+RUN mkdir /licenses
+COPY license /licenses
 
 #satisfy the run and stop label
 LABEL stop docker stop IMAGE
